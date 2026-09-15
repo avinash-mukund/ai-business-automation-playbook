@@ -1,8 +1,0 @@
-mkdir 01-ai-customer-support-automation
-mkdir 02-ai-voice-receptionist-booking
-mkdir 03-dead-lead-reactivation
-mkdir 04-ai-lead-qualification-followup
-mkdir 05-crm-automation
-mkdir 06-email-admin-workflows
-mkdir shared
-mkdir shared/prompts
