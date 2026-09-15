@@ -42,3 +42,38 @@ shared/
 ├── architecture-patterns.md
 ├── tools-stack.md
 └── prompts/
+
+
+
+---
+
+## Design Principles
+
+- Start from a real operational problem exclusive of AI tools
+- Keep humans in the loop where judgment and governance is required
+- Prioritise data quality and clean CRM handoffs
+- Build for reliability and easy handover
+- Document decisions so systems can be maintained
+
+---
+
+## Who This Is For
+
+- Small business owners looking to automate repetitive customer and sales operations
+- Product Managers and Solutions Consultants designing automation systems
+- Freelancers and agencies building client automation offerings
+- Teams evaluating n8n + AI agent architectures
+
+---
+
+## Status
+
+Playbook under active development.  
+Individual system documentation and blueprints being added progressively.
+
+---
+
+## Author
+
+**Avinash Mukundan**  
+Sydney
