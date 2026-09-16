@@ -1,18 +1,20 @@
 # Email & Administrative Workflows
 
 ## Problem
-High volumes of operational email create repetitive manual work (classification, routing, data entry, approvals).
+Operational email creates repetitive work: classification, data entry, routing, and approvals.
 
-## Solution Pattern
-- Email received and parsed
-- AI extracts key information and classifies request
-- Routes to correct workflow or person
-- Updates spreadsheets / CRM / documents
-- Triggers approvals or notifications where needed
+## Solution
+Intelligent email workflows that:
+- Parse and classify incoming emails
+- Extract key information
+- Route to the right person or process
+- Update sheets, CRM, or documents
+- Trigger approval or notification flows
 
-## Key Components
-- Email parsing
-- Classification & extraction
-- Routing logic
-- System updates
-- Approval flows
+## Typical Stack
+n8n + Gmail / Outlook + Claude + Google Sheets / HubSpot
+
+## Business Impact
+- Hours saved per week
+- Fewer missed requests
+- Faster internal turnaround
