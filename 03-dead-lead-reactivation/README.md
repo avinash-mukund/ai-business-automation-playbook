@@ -1,19 +1,20 @@
 # Dead Lead Reactivation
 
 ## Problem
-CRMs often contain large volumes of inactive leads that are never systematically re-engaged.
+Most CRMs contain thousands of inactive leads that are never systematically re-engaged.
 
-## Solution Pattern
-- Identify inactive leads based on last activity rules
-- Segment by potential value or original source
-- Generate personalised reactivation messaging with AI
-- Trigger multi-step follow-up sequence
-- Update lead status based on response
-- Route re-engaged leads back into active pipeline
+## Solution
+A reactivation engine that:
+- Identifies truly inactive leads using clear rules
+- Segments them by potential value
+- Generates personalised AI messaging
+- Runs multi-step follow-up sequences
+- Moves positive replies back into the active pipeline
 
-## Key Components
-- Inactivity rules
-- Segmentation logic
-- AI copy generation
-- Sequence orchestration
-- CRM status updates
+## Typical Stack
+n8n + HubSpot / GoHighLevel + Claude/OpenAI
+
+## Business Impact
+- Revenue from existing database
+- Higher pipeline volume without new ad spend
+- Better CRM hygiene
