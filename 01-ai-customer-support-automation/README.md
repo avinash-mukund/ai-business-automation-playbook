@@ -1,19 +1,21 @@
 # AI Customer Support Automation
 
 ## Problem
-Support teams spend significant time on repetitive enquiries that follow predictable patterns.
+Support teams waste time on repetitive, predictable enquiries. Response times suffer and agents get buried in low-value work.
 
-## Solution Pattern
-- Inbound message (email, chat, form) triggers workflow
-- AI classifies intent and urgency
-- Retrieves relevant knowledge or past context
-- Drafts or sends response
-- Escalates to human when confidence is low or issue is complex
-- Logs outcome in CRM / helpdesk
+## Solution
+An AI-powered support system that:
+- Classifies incoming messages by intent and urgency
+- Retrieves relevant knowledge or past customer context
+- Drafts or sends accurate responses
+- Escalates complex or high-risk issues to humans
+- Logs everything cleanly in the CRM / helpdesk
 
-## Key Components
-- Classification agent
-- Knowledge retrieval
-- Response generation
-- Escalation rules
-- CRM / ticket update
+## Typical Stack
+n8n + Claude/OpenAI + HubSpot / Zendesk / Intercom + Knowledge base
+
+## Business Impact
+- Faster first response
+- Lower cost per ticket
+- Higher agent focus on complex issues
+- Consistent tone and quality
