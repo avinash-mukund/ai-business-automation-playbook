@@ -1,17 +1,21 @@
 # CRM Automation
 
 ## Problem
-Manual CRM updates, inconsistent lifecycle stages, and poor data hygiene reduce the value of the CRM.
+Manual data entry, inconsistent lifecycle stages, and poor data quality undermine CRM value.
 
-## Solution Pattern
-- Automate lead and contact creation
-- Enforce lifecycle stage progression
-- Trigger tasks and notifications
-- Maintain data quality rules
-- Sync key fields across systems
+## Solution
+Robust CRM automation covering:
+- Contact and deal creation
+- Lifecycle stage progression
+- Task and notification triggers
+- Data quality enforcement
+- Sync between CRM and other systems
 
-## Key Components
-- Object and lifecycle modelling
-- Workflow automation
-- Data quality checks
-- Cross-system sync
+## Typical Stack
+HubSpot / Salesforce / GoHighLevel + n8n
+
+## Business Impact
+- Cleaner data
+- Less manual work
+- More reliable reporting
+- Better sales and marketing alignment
