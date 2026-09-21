@@ -1,79 +1,65 @@
 # AI Business Automation Playbook
 
-Practical, end-to-end AI automation systems designed to help businesses manage leads, support customers, book appointments, reactivate dead leads, and streamline operations.
+![n8n](https://img.shields.io/badge/n8n-Orchestration-orange)
+![AI](https://img.shields.io/badge/AI-Claude%20%2F%20OpenAI-blue)
+![CRM](https://img.shields.io/badge/CRM-HubSpot%20%7C%20GHL%20%7C%20Salesforce-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-**Relevant markets:** Australia / New Zealand • APAC • Middle East
+> Practical AI automation systems that turn repetitive business work into reliable, measurable workflows.
 
----
-
-## What This Repository Contains
-
-This playbook documents real automation patterns across six high-impact business use cases:
-
-1. **AI Customer Support Automation**
-2. **AI Voice Receptionist & Appointment Booking**
-3. **Dead Lead Reactivation**
-4. **AI Lead Qualification & Follow-Up**
-5. **CRM Automation**
-6. **Email & Administrative Workflows**
-
-Each system is designed around a clear operational problem and follows a consistent structure: Trigger → AI Processing → Business Logic → CRM / Action → Result.
+**Target markets:** Australia / New Zealand • APAC • Middle East
 
 ---
 
-## Core Technology Stack
-
-- **Orchestration:** n8n
-- **AI Layer:** Claude / OpenAI / AI Agents
-- **CRM:** HubSpot, GoHighLevel, Salesforce
-- **Voice:** Vapi / Retell-style voice agents
-- **Supporting Tools:** Google Workspace, Webhooks, APIs, Calendars
-
----
-
-## Repository Structure
-01-ai-customer-support-automation/
-02-ai-voice-receptionist-booking/
-03-dead-lead-reactivation/
-04-ai-lead-qualification-followup/
-05-crm-automation/
-06-email-admin-workflows/
-shared/
-├── architecture-patterns.md
-├── tools-stack.md
-└── prompts/
-
-
+## Table of Contents
+- [Overview](#overview)
+- [Systems Included](#systems-included)
+- [Architecture](#architecture)
+- [Tech Stack](#tech-stack)
+- [Repository Structure](#repository-structure)
+- [Design Principles](#design-principles)
+- [Who This Is For](#who-this-is-for)
+- [Status](#status)
 
 ---
 
-## Design Principles
+## Overview
 
-- Start from a real operational problem exclusive of AI tools
-- Keep humans in the loop where judgment and governance is required
-- Prioritise data quality and clean CRM handoffs
-- Build for reliability and easy handover
-- Document decisions so systems can be maintained
+This playbook documents end-to-end AI automation systems for high-impact business operations:
 
----
+- Lead capture, qualification and follow-up
+- Customer support automation
+- Voice reception and appointment booking
+- Dead lead reactivation
+- CRM process automation
+- Email and administrative workflows
 
-## Who This Is For
-
-- Small business owners looking to automate repetitive customer and sales operations
-- Product Managers and Solutions Consultants designing automation systems
-- Freelancers and agencies building client automation offerings
-- Teams evaluating n8n + AI agent architectures
+Each system is built around a real operational problem and follows a consistent pattern:  
+**Trigger → AI Processing → Business Logic → System Action → Human-in-the-loop (when needed)**
 
 ---
 
-## Status
+## Systems Included
 
-Playbook under active development.  
-Individual system documentation and blueprints being added progressively.
+| # | System | Description |
+|---|--------|-------------|
+| 01 | [AI Customer Support Automation](./01-ai-customer-support-automation) | Classify, respond and escalate support enquiries |
+| 02 | [AI Voice Receptionist & Booking](./02-ai-voice-receptionist-booking) | Answer calls, book appointments, update CRM |
+| 03 | [Dead Lead Reactivation](./03-dead-lead-reactivation) | Re-engage inactive leads with personalised sequences |
+| 04 | [AI Lead Qualification & Follow-Up](./04-ai-lead-qualification-followup) | Instant qualification, scoring and nurturing |
+| 05 | [CRM Automation](./05-crm-automation) | Lifecycle, data quality and cross-system sync |
+| 06 | [Email & Admin Workflows](./06-email-admin-workflows) | Parse, classify, route and process operational email |
 
 ---
 
-## Author
+## Architecture
 
-**Avinash Mukundan**  
-Sydney
+Every system in this playbook follows the same reliable structure:
+
+```mermaid
+flowchart LR
+    A[Trigger<br>Form / Call / Email / Webhook] --> B[AI Processing<br>Classify • Extract • Decide]
+    B --> C[Business Logic<br>Score • Route • Rules]
+    C --> D[System Actions<br>CRM • Calendar • Messaging]
+    D --> E[Human Review<br>Only when needed]
+    E --> F[Logging & Measurement]
