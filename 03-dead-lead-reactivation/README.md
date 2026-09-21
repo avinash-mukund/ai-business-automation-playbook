@@ -45,4 +45,32 @@ A reactivation system that:
 
 ---
 
-## Typical 
+## Typical Tech Stack
+
+- **Orchestration:** n8n  
+- **AI:** Claude / OpenAI  
+- **CRM:** HubSpot / GoHighLevel / Salesforce  
+
+---
+
+## Business Impact
+
+- Revenue recovered from existing database
+- Higher pipeline volume without extra ad spend
+- Improved CRM hygiene
+- Better visibility of re-engagement performance
+
+---
+
+## Who This Is For
+
+- Sales and marketing teams with large inactive databases
+- Businesses that have invested heavily in lead generation
+- Companies using HubSpot, GoHighLevel, or Salesforce
+- Teams looking for efficient pipeline growth
+
+---
+
+## Status
+
+Documentation and pattern under active improvement.
